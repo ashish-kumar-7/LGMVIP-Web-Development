@@ -6,10 +6,10 @@ var background = [
     "Images/nature5.jpg"
   ];
   var i = 0;
-  
+
   function carousel(){
     document.getElementById("carousel").src = background[i];
-    if(i < images.length - 1){
+    if(i < background.length - 1){
       i++;
     }
     else
